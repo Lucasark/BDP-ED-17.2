@@ -16,7 +16,7 @@ int isFull(Pilha p){
 }
 
 char pop(Pilha *p){
-	char c = p->elementos[p.topo];
+	char c = p.elementos[p.topo];
 	p.topo--;
 	return c;
 }
